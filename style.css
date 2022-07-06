@@ -6,19 +6,158 @@ body{
     background-image: url(images/donation6.jpg);
     background-size: cover;
     padding-top: 5%;
+    margin-bottom: 5%;
     width: 100%;
     height: 600px;
     background-repeat: no-repeat;
     text-align: center;
     color: white;
 }
-.front p{
+p{
+    font-size: 20px;
+}
+.front p, .middle p{
     padding-left: 25%;
     padding-right: 25%;
+    margin-bottom: 3%;
 }
-.front a{
+a{
     text-decoration: none;
     padding: 10px 10px;
     background-color: tomato;
     color: rgb(234, 226, 226);
+}
+.middle{
+    text-align: center;
+}
+.box{
+    display: flex;
+    padding-left: 24%;
+}
+
+.box div{
+    padding: 3% 2%;
+    margin: 1%;
+    background-color: aliceblue;
+}
+
+#select-box{
+    background-color: rgb(243, 234, 224);
+    border: 3px solid orange;
+    color: orange;
+}
+input{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    border:none;
+    border-bottom: 0.5px solid black;
+}
+:-ms-input-placeholder{
+    text-align: center;
+    font-size: 50px;
+}
+.middle h1{
+    margin-top: 5%;
+}
+.box2{
+    display: flex;
+    padding-left: 10%;
+}
+.box2 div{
+    margin: 2%;
+    width: 25%;
+}
+#food{
+    width: 25%;
+    padding-left: 1%;
+    text-align: left;
+    background-color: antiquewhite;
+}
+#food img{
+    padding-top: 15%;
+    height: 20%;
+}
+
+#food h6{
+    margin-top: 1%;
+    margin-bottom: 0%;
+   
+}
+
+#food p{
+    font-size: 15px;
+    margin-bottom: 15%;
+    padding-left: 0;
+    padding-right: 2%;
+}
+
+#shelter{
+    width: 25%;
+    padding-left: 1%;
+    text-align: left;
+    background-color:rgb(187, 240, 240);
+}
+
+#shelter img {
+    padding-top: 15%;
+    height: 20%;
+}
+
+#shelter h6 {
+    margin-top: 1%;
+    margin-bottom: 0%;
+
+}
+
+#shelter p{
+    font-size: 15px;
+    margin-bottom: 15%;
+    padding-left: 0;
+    padding-right: 2%;
+}
+
+#education {
+    width: 25%;
+    padding-left: 1%;
+    text-align: left;
+    background-color: rgb(240, 187, 208);
+}
+
+#education img {
+    padding-top: 15%;
+    height: 20%;
+}
+
+#education h6 {
+    margin-top: 1%;
+    margin-bottom: 0%;
+
+}
+
+#education p {
+    font-size: 15px;
+    margin-bottom: 15%;
+    padding-left: 0;
+    padding-right: 2%;
+}
+
+footer{
+    padding-top: 2px;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
+
+.foot h4{
+    color: orange;
+    font-family:cursive;
+    margin-bottom: 0;
+}
+.foot p{
+    font-size: 15px;
+    color:beige;
 }
